@@ -1,0 +1,30 @@
+{
+  "name": "quality-hub-gateway-be",
+  "version": "1.0.0",
+  "description": "🚫 Note: All lines that start with 🚫 are instructions and should be deleted before this is posted to your portfolio. This is intended to be a guideline. Feel free to add your own flare to it.",
+  "main": "gateway.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon gateway.js",
+    "start": "node gateway.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambda-School-Labs/quality-hub-gateway-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lambda-School-Labs/quality-hub-gateway-be/issues"
+  },
+  "homepage": "https://github.com/Lambda-School-Labs/quality-hub-gateway-be#readme",
+  "dependencies": {
+    "@apollo/gateway": "^0.10.8",
+    "apollo-server": "^2.9.7",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
