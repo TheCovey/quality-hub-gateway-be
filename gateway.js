@@ -13,18 +13,18 @@ const gateway = new ApolloGateway({
 	serviceList: [
 		{
 			name: 'core',
-			url: 'https://quality-hub-core-staging.herokuapp.com',
+			url: 'https://qualityhub-core-backend.herokuapp.com',
 		},
 		{
 			name: 'interviewQ',
-			url: 'https://interview-q-staging.herokuapp.com',
+			url: 'https://interviewq-backend.herokuapp.com',
 		},
 		{
 			name: 'resumeQ',
 			url: 'https://qh-resumeq-practice-01.herokuapp.com',
 		},
 	],
-	buildService({ name, url }) {
+	buildService({ url }) {
 		return new AuthenticatedDataSource({ url });
 	},
 });
