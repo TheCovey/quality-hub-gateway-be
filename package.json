@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Lambda-School-Labs/quality-hub-gateway-be#readme",
   "dependencies": {
     "@apollo/gateway": "^0.19.1",
-    "apollo-server": "^2.16.1",
+    "apollo-server": "^2.25.4",
     "graphql": "^15.3.0"
   },
   "devDependencies": {
